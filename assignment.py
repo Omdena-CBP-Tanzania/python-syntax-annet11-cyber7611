@@ -30,7 +30,7 @@ def conditional_check(number):
         return "Equal"
 
 if __name__ == "__main__"
-    number = int(input("Enter a number: "))
+    number = int(input("5: "))
     result = conditional_check(number)
     print(f"The number is {result} than 10.")
 
